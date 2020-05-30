@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+body {font-family: Arial, Helvetica, sans-serif;}
+
+form {background-color: #0033a0}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.glass {
+  width: 40%;
+  border-style: 50%;
+}
+
+
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+</style>
+</head>
+<body style="background-color: #0033a0;background-repeat: no-repeat;background-size: cover;">
+  
+
+<h2 style="text-align: center; ">LMS Login</h2>
+<div class="container r" >
+
+</div>
+
+<form  action="http://localhost/login.php" method="post" >
+  
+ 
+
+<div class="container w-25" style="text-align: center; background-color: floralwhite;">
+ 
+    
+   
+    
+    
+    <input type="text" placeholder="Enter Username" name="uname"  style="width: 300px"><br>
+
+    
+    <input type="password" placeholder="Enter Password" name="psw"  style="width: 300px"><br>
+        <div>
+    <button type="submit" style="width: 80px; margin-right: 140px ">Login</button>
+       </div>
+    
+    <div>
+      <label style="color: black; margin-right: 100px">
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label><br>
+    	<span><a href="" style="color: black; margin-right: 60px"width: 50px>Forgot your password?</a></span>
+    </div>
+    <div class="connect">
+				<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a> <a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a> <a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">google+</a>
+	</div>
+	
+   </div>
+    
+  </div>
+
+</div>
+</form>
+
+</body>
+</html>
