@@ -31,7 +31,7 @@ def seed_data():
     try:
         with table.batch_writer() as batch:
             batch.put_item(Item={"username": "anshu", "password": "a123456"})
-             batch.put_item(Item={"username": "tony", "password": "1123456"})
+             batch.put_item(Item={"username": "tony", "password": "t123456"})
             batch.put_item(Item={"username": "smith", "password": "s123456"})
             batch.put_item(Item={"username": "bob", "password": "b123456"})
            
